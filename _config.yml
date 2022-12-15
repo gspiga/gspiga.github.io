@@ -152,7 +152,6 @@ footer:
       # url:
 
 # Navigation
-  - {file: "index.html", title: "Home Change", icon: home}
   - {file: "README.md", title: "About Me", icon: address-card}
 
 # Reading Files
