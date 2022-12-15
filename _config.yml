@@ -107,8 +107,8 @@ author:
   name             : "Gianni Spiga"
   #avatar           : "/assets/images/acadia.jpg"
   bio              : "Hello and welcome to my website! I am a Masters Candidate in Statistics at the University of California Davis expected to graduate Fall 2023."
-  location         : "California"
-  email            :
+  location         : "San Jose, California"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
