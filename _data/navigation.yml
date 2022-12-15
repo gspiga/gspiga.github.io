@@ -4,7 +4,7 @@ main:
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "About Me"
     # url: https://mmistakes.github.io/minimal-mistakes/about/
-    file: "/README.md"
+    url: "/README.md/"
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
