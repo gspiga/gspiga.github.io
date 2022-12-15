@@ -151,9 +151,6 @@ footer:
       icon: "fab fa-fw fa-instagram"
       # url:
 
-# Navigation
-  - {file: "README.md", title: "About Me", icon: address-card}
-
 # Reading Files
 include:
   - .htaccess
