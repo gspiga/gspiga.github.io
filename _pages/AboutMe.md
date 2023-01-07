@@ -1,6 +1,6 @@
 ---
 permalink: /about/
-layout: splash
+layout: single
 title: "About Me"
 author_profile: false
 ---
