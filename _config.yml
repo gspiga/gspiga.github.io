@@ -107,7 +107,7 @@ author:
   name             : "Gianni Spiga"
   #avatar           : "/assets/images/acadia.jpg"
   bio              : "A graduate statistics candidate seeking an internship in data science"
-  location         : "San Jose, California"
+  location         : "San Jose, CA"
   email            : 
   links:
     - label: "Email"
