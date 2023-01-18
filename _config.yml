@@ -106,8 +106,8 @@ analytics:
 author:
   name             : "Gianni Spiga"
   avatar           : "/assets/images/Avatar2023crop.png" #/assets/images/bio-photo.jpg""/_images/Avatar2023crop.png"
-  bio              : "A graduate statistics candidate seeking an internship in data science"
-  location         : "San Jose, CA"
+  bio              : "From Musician to Graduate Student in Statistics"
+  location         : "San Francisco Bay Area, CA"
   email            : 
   links:
     - label: "Email"
