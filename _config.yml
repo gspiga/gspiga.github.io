@@ -129,7 +129,7 @@ author:
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
     - label: "Spotify"
-      icon: "bi bi-spotify"
+      icon: <i class="fa-brands fa-spotify"></i>
       url: "https://open.spotify.com/user/1233152778?si=3f3510ec6c47426f"
 
 # Site Footer
