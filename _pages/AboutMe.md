@@ -2,7 +2,7 @@
 permalink: /about/
 layout: single
 title: "About Me"
-author_profile: false
+author_profile: true
 header:
   overlay_image: /assets/images/foggy-golden.jpg
 ---
