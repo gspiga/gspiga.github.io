@@ -9,9 +9,9 @@ main:
   - title: "About Me"
     # url: https://mmistakes.github.io/minimal-mistakes/about/
     url: /about/
-  - title: "Sample Posts"
-    url: /sample/
-    # url: /year-archive/
+  #- title: "Sample Posts"
+  # url: /sample/
+  # url: /year-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
