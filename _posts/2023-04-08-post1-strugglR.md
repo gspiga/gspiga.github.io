@@ -25,4 +25,4 @@ View(df)
 ```
 Viewing the above data frame, we see the following: 
 
-![Our Initial Data Frame, with descriptions under each Column Name.][(https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/image.png)]
+![Our Initial Data Frame, with descriptions under each Column Name.][(https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/image.png?raw=true)]
