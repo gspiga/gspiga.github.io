@@ -31,7 +31,7 @@ However, say we try to subset it, trying to get only the ID, DOB, and whether or
 ```
 df.red <- df[,c(1,3,6)]
 ```
-Outputs:
+Outputs: \\
 ![Our reduced data frame with no variable labels](https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_full_varlabels.png?raw=true)
 
 So where did our variable labels go? The answer lies in how these variable names are implemented to the dataframe object. Checking for the attibutes of the dataframe using `attributes(df)` will show the variable labels part of the data frame. However, subsetting this data frame removes that attribute since you are creating a new data frame, with out transferring over all the attributes. Here a documented fix: 
