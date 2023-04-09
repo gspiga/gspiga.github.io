@@ -25,7 +25,7 @@ View(df)
 ```
 Viewing the above data frame, we see the following: 
 
-![Our Initial Data Frame, with descriptions under each Column Name} (https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_full_varlabels.png)
+![Our Initial Data Frame, with descriptions under each Column Name] (https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_full_varlabels.png?raw=true)
 
 However, say we try to subset it, trying to get only the ID, DOB, and whether or not these people like French fries. 
 ```
