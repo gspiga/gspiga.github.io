@@ -25,9 +25,29 @@ View(df)
 ```
 Viewing the above data frame, we see the following: 
 
-![Our Initial Data Frame, with descriptions under each Column Name] (https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_full_varlabels.png?raw=true)
+![Our Initial Data Frame, with descriptions under each Column Name](https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_full_varlabels.png?raw=true)
 
 However, say we try to subset it, trying to get only the ID, DOB, and whether or not these people like French fries. 
 ```
 df.red <- df[,c(1,3,6)]
 ```
+Outputs:
+![Our reduced data frame with no variable labels](https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_full_varlabels.png?raw=true)
+
+So where did our variable labels go? The answer lies in how these variable names are implemented to the dataframe object. Checking for the attibutes of the dataframe using `attributes(df)` will show the variable labels part of the data frame. However, subsetting this data frame removes that attribute since you are creating a new data frame, with out transferring over all the attributes. Here a documented fix: 
+
+```
+# Check the attributes of the original data frame 
+attributes(df)
+# We grab the variable labels as a chracter vector
+labels <- attr(df, "variable.labels")
+
+# Depending on how the data is prepared, the variable labels might already be named.  If they aren't, run this line.
+names(labels) <- names(df)
+
+library(Hmisc)
+# We know use upData() to make each variable label an attribute of each column instead of just the dataframe
+df.new <- upData(df.red, labels = labels.list)
+View(df.new)
+```
+With each variable label an attribute to each column, any further subsetting of the data frame still retains the variable labels, since they are now a unique attribute of each column. 
