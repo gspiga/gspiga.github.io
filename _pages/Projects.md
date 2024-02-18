@@ -13,7 +13,7 @@ Welcome to my projects page! Here, you can find a list of data science projects 
 
 ## Project 1: [Sentiment Analysis: US Airline Tweets]
 
-![Sentiment Analysis: US Airline Tweets](link-to-image-if-available.png)  
+![Sentiment Analysis: US Airline Tweets](/assets/images/foggy-golden.jpg)  
 *Duration: Oct 2023 – Dec 2023*
 
 **Project Description:**  
