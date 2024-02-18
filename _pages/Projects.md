@@ -9,7 +9,7 @@ author_profile: false
 
 Welcome to my projects page! Here, you can find a list of data science projects that I've worked on, showcasing my skills in data analysis, machine learning, and more. Each project is accompanied by a brief description, key technologies used, and a link to the GitHub repository for more details.
 
----
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
 ## Project 1: [Project Title Here]
 
@@ -33,7 +33,7 @@ Provide a brief overview of the project. Include the objectives, the problem it 
 
 **[View Project on GitHub](link-to-your-github-repo)**
 
----
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
 ## Project 2: [Project Title Here]
 
@@ -56,7 +56,7 @@ Provide a brief overview of the project. Include the objectives, the problem it 
 
 **[View Project on GitHub](link-to-your-github-repo)**
 
----
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
 ## Project 3: [Project Title Here]
 
@@ -79,13 +79,13 @@ Provide a brief overview of the project. Include the objectives, the problem it 
 
 **[View Project on GitHub](link-to-your-github-repo)**
 
----
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
 ### More Projects
 
 For more projects and detailed information, please visit my [GitHub Profile](link-to-your-github-profile).
 
----
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
 ## Get In Touch
 
