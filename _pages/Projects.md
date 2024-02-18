@@ -11,10 +11,10 @@ Welcome to my projects page! Here, you can find a list of data science projects 
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
-## Project 1: [Project Title Here]
+## Project 1: [Sentiment Analysis: US Airline Tweets]
 
-![Project 1 Image](link-to-image-if-available.png)  
-*Duration: Start Date – End Date*
+![Sentiment Analysis: US Airline Tweets](link-to-image-if-available.png)  
+*Duration: Oct 2023 – Dec 2023*
 
 **Project Description:**  
 Provide a brief overview of the project. Include the objectives, the problem it solves, and any interesting findings.
@@ -31,7 +31,7 @@ Provide a brief overview of the project. Include the objectives, the problem it 
 - Feature 2
 - Feature 3
 
-**[View Project on GitHub](link-to-your-github-repo)**
+**[View Project on GitHub](https://github.com/gspiga/TweetSentimentAnalysis/tree/main)**
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
