@@ -20,19 +20,14 @@ Welcome to my projects page! Here, you can find a list of data science projects 
 *Duration: Oct 2023 – Dec 2023*
 
 **Project Description:**  
-Provide a brief overview of the project. Include the objectives, the problem it solves, and any interesting findings.
+In this project, we conducted a comprehensive sentiment analysis of U.S. domestic airline tweets, utilizing a range of machine learning and natural language processing models. The objective was to accurately categorize tweets into sentiment classes to assist airlines in understanding customer feedback. Our approach included traditional models like Support Vector Machines (SVM) and Multinomial Regression, both with and without regularization techniques like LASSO and Elastic Net, as well as advanced deep learning models such as Recurrent Neural Networks (RNNs), Convolutional Neural Networks (CNNs), and the state-of-the-art Bidirectional Encoder Representations from Transformers (BERT) model. The analysis revealed that while each model offered unique insights, the fine-tuned BERT model stood out with its exceptional accuracy of 90%, demonstrating its superior capability in handling the complexities of sentiment analysis in social media data. This project exemplifies the use of diverse AI methodologies in practical applications, providing valuable tools for businesses to derive actionable insights from customer opinions expressed online.
 
-**Technologies Used:**
+**Features and Technologies Used:**
 - Python
 - Pandas
 - Scikit-Learn
 - TensorFlow
-- Any other technologies or libraries used
-
-**Key Features:**
-- Feature 1
-- Feature 2
-- Feature 3
+- NLP
 
 **[View Project on GitHub](https://github.com/gspiga/TweetSentimentAnalysis/tree/main)**
 
