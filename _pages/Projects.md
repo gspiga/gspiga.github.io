@@ -33,19 +33,18 @@ In this project, we conducted a comprehensive sentiment analysis of U.S. domesti
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
-## Project 2: [Project Title Here]
+## Modeling Contributing Factors of Unreported Crimes for Victims in the United States
 
-![Project 2 Image](link-to-image-if-available.png)  
-*Duration: Start Date – End Date*
+<img src="/assets/images/UnreportedCrimesProj.jpg" alt="Project Image" width="650" height="auto"/>
+*Duration: February 2023 – March 2023*
 
-**Project Description:**  
-Provide a brief overview of the project. Include the objectives, the problem it solves, and any interesting findings.
+**Abstract:**  
+The 2020 National Crime Victimization Survey (NCVS) provides information about crime around the country. Following data cleaning and re-encoding, logistic regression models the determinants of a crime being reported to the police or not. Attempts to expand the model with interactions and a generalized partially linear additive model lead back to modeling with a few predictors as main effects. 
 
 **Technologies Used:**
 - R
-- ggplot2
-- Shiny
-- Any other technologies or libraries used
+- ggplot2/plotly
+- tidyverse
 
 **Key Features:**
 - Feature 1
