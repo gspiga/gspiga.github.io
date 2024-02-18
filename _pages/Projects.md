@@ -11,7 +11,7 @@ Welcome to my projects page! Here, you can find a list of data science projects 
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
-## Project 1: [Sentiment Analysis: US Airline Tweets]
+## Sentiment Analysis: US Airline Tweets
 
 <img src="/assets/images/AirlineFlightInfoScreen.jpg" alt="Project Image" width="650" height="auto"/>
 
