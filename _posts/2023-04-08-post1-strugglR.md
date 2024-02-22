@@ -3,9 +3,9 @@ title: "library(strugglR) #1: Retaining Variable Labels in Data Subsets"
 show_date: true 
 ---
 
-Welcome to the first installment of a series of posts I will be hosting on this site, which I like to call library(strugglR) (to my knowledge, there is no existing library with this name readily available on CRAN, so I get dibs). This series will go over methods and tricks I use to work around issues in R/Rmarkdown. I will focus on the obstacles which take more than a simple stack overflow page to solve. The ones that I might very well dump hours into, so you do not have to. Installments of this series can summarize the findings of multiple stack overflow pages or work arounds I have discovered on my own. Feel free to contact me if you have any questions. Let's get into it. 
+Welcome to the first installment of a series of posts, I will be hosting on this site, which I like to call library(strugglR) (to my knowledge, there is no existing library with this name readily available on CRAN, so I get dibs). This series will review methods and tricks I use to work around issues in R/Rmarkdown. I will focus on the obstacles that take more than a simple stack overflow page to solve. The ones that I might very well dump hours into, so you do not have to. Installments of this series can summarize the findings of multiple stack overflow pages or workarounds I have discovered on my own. Feel free to contact me if you have any questions. Let's get into it. 
 
-Recently, in working with the 2020 National Crime Vicitmization Survey, I ran into an issue in data cleaning and subsetting. This data, which provides a plethora of information, names the variables based on an ID value whichs is referenced in the 800+ page codebook. This would make analysis exhausting, if it was not for the attached variable desscriptions in each column, which provide descriptions of each column. Subsetting this data however removes these variables. We will illustrate this situation and solution with a simple example below. 
+Recently, in working with the 2020 National Crime Victimization Survey, I ran into an issue in data cleaning and subsetting. This data, which provides a plethora of information, names the variables based on an ID value which is referenced in the 800+ page codebook. This would make analysis exhausting if not for the attached variable descriptions in each column. The challenge comes when trying to subset this data, which removes these variable descriptions. We will illustrate this situation and solution with a simple example below. 
 
 ```
 # Our sample data frame
@@ -32,7 +32,7 @@ df.red <- df[,c(1,3,6)]
 ```
 ![Our reduced data frame with no variable labels](https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/struggleR/df_red_varlabels.png?raw=true)
 
-So where did our variable labels go? The answer lies in how these variable names are implemented to the dataframe object. Checking for the attibutes of the dataframe using `attributes(df)` will show the variable labels part of the data frame. However, subsetting this data frame removes that attribute since you are creating a new data frame, with out transferring over all the attributes. Here a documented fix: 
+So where did our variable labels go? The answer lies in how these variable names are implemented in the data frame object. Checking for the attributes of the data frame using `attributes(df)` will show the variable labels part of the data frame. However, subsetting this data frame removes that attribute since you are creating a new data frame, without transferring over all the attributes. Here is a documented fix: 
 
 ```
 # Check the attributes of the original data frame 
@@ -44,11 +44,11 @@ labels <- attr(df, "variable.labels")
 names(labels) <- names(df)
 
 library(Hmisc)
-# We know use upData() to make each variable label an attribute of each column instead of just the dataframe
+# We now use upData() to make each variable label an attribute of each column instead of just the data frame
 df.new <- upData(df.red, labels = labels.list)
 View(df.new)
 ```
-With each variable label an attribute to each column, any further subsetting of the data frame still retains the variable labels, since they are now a unique attribute of each column, and not an overall data frame. We can confirm this by checking the attributes of the data frame and the column. 
+With each variable label an attribute to each column, any further subsetting of the data frame still retains the variable labels, since they are now a unique attribute of each column and not an overall data frame. We can confirm this by checking the attributes of the data frame and the column. 
 
 ```
 attributes(df.new)
