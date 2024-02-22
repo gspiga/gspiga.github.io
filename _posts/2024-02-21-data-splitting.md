@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Culinary School: Chopping Up Your Data :knife:"
+title: "Machine Learning Culinary School: Chopping Up Your Data 🍴"
 show_date: true 
 ---
 
