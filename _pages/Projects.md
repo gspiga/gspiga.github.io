@@ -89,5 +89,5 @@ For more projects and detailed information, please visit my [GitHub Profile](lin
  
 ## Get In Touch
 
-Interested in collaborating on a project or have questions? Feel free to contact me. <!--[contact me](your-contact-information-link) -->.
+Interested in collaborating on a project or have questions? Feel free to contact me. <!--[contact me](your-contact-information-link) -->
 
