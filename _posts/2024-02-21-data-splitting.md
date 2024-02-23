@@ -30,4 +30,4 @@ While this process will perform quite well, there is something to be cautious of
 
 ![Visualizing the data splitting process](https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/ML_dataset_training_validation_test_sets.png?raw=true)
 
-Now you should have a solid grasp of the advantage of splitting your data for model building. Questions/Feedback? Feel free to reach out! 
+Now, you have a solid grasp of the advantage of splitting your data for model building. Questions/Feedback? Feel free to reach out! 
