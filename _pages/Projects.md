@@ -51,7 +51,7 @@ The 2020 National Crime Victimization Survey (NCVS) provides information about c
 - Feature 2
 - Feature 3
 
-**[View Full Report](https://github.com/gspiga/gspiga.github.io/blob/master/assets/docs/UnreportedCrimesReport.pdf)**
+**[View Full Report](https://github.com/gspiga/gspiga.github.io/blob/master/assets/docs/UnreportedCrimesReport.pdf?raw=true)**
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
