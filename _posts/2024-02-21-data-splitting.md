@@ -28,4 +28,6 @@ We can alleviate this by splitting our data into an additional piece, the *valid
 
 While this process will perform quite well, there is something to be cautious of: the size of your validation set. If your validation set is too small, you risk picking a suboptimal model, whereas if the validation set is too large, you may not have enough data to build an accurate model in training. You could alleviate this with *cross-validation*, which allows you to pick a model using many different validation sets and taking the average of your model performance. However, this computational complexity increases when doing this, which is yet another tradeoff. 
 
+![Visualizing the data splitting process](https://github.com/gspiga/gspiga.github.io/blob/master/assets/images/ML_dataset_training_validation_test_sets.png?raw=true)
+
 Now you should have a solid grasp of the advantage of splitting your data for model building. Questions/Feedback? Feel free to reach out! 
