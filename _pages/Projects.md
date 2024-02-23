@@ -46,10 +46,12 @@ The 2020 National Crime Victimization Survey (NCVS) provides information about c
 - ggplot2/plotly
 - tidyverse
 
+<!-- 
 **Key Features:**
 - Feature 1
 - Feature 2
 - Feature 3
+-->
 
 **[View Full Report](/assets/docs/UnreportedCrimesReport.pdf)**
 
