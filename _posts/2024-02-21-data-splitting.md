@@ -21,7 +21,7 @@ Hyperparameters add a level of complexity to the scenario. Why? Let us recall wh
 Intuitively, to find the best hyperparameter value, we could train a lot of different models with a lot of different hyperparameter values. Test all these different models on the test set, find the hyperparameter with the lowest generalization error, and pick that model. What is the problem here? You have only tuned this model for **this specific set** of test data. Any new data you use in the future with this model is not likely to perform well. 
 
 We can alleviate this by splitting our data into an additional piece, the *validation set* (or the *development/dev set*). Let's update our step-by-step guide with this additional process:
-1. Split your data into three a *training set*, a *validation set*, and a *test set*.  
+1. Split your data into three: a *training set*, *validation set*, and a *test set*.  
 2. Train multiple models on the training data, and measure the error rate of each against the validation set.
 3. The model with the lowest error on the validation set gets retrained with the training set and validation set combined as one new data set. 
 4. Use this final model to build predictions with your new test data, and measure the generalization error rate. 
