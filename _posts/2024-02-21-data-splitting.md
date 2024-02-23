@@ -5,7 +5,7 @@ show_date: true
 
 Say you are building a linear regression model to make predictions. You've got the data set formatted and cleaned. Run the code on your whole data set, find your parameters, and calculate the error of the model. After a couple of minutes, you start to wonder..."How do I know if this model is any good with new data?" 
 
-This is where the knife-chopping skills come in, or more, your *data-splitting* skills. We split data commonly into two different subsets, the *training set* and the *test set*. First, let's break the entire process step-by-step, and after we will discuss the advantages and variations.
+This is where the knife-chopping skills come in, or more, your *data-splitting* skills. First, let's break the entire process step-by-step, and after we will discuss the advantages and variations.
 1. Split your data into two, a *training set* and a *test set*.  
 2. Build your model on the training data, and measure the error rate.
 3. Use this model to build predictions with your new test data, and measure the error rate. 
