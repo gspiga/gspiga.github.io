@@ -1,6 +1,8 @@
 ---
 title: "Machine Learning Culinary School: Chopping Up Your Data 🍴"
 show_date: true 
+header:
+  overlay_image: /assets/images/ML_dataset_training_validation_test_sets.png
 ---
 
 Say you are building a linear regression model to make predictions. You've got the data set formatted and cleaned. Run the code on your whole data set, find your parameters, and calculate the error of the model. After a couple of minutes, you start to wonder..."How do I know if this model is any good with new data?" 
