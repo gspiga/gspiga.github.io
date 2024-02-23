@@ -55,6 +55,7 @@ The 2020 National Crime Victimization Survey (NCVS) provides information about c
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
+<!--
 ## Project 3: [Project Title Here]
 
 ![Project 3 Image](link-to-image-if-available.png)  
@@ -82,8 +83,10 @@ Provide a brief overview of the project. Include the objectives, the problem it 
 
 For more projects and detailed information, please visit my [GitHub Profile](link-to-your-github-profile).
 
-<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
+ -->
+ 
 ## Get In Touch
 
 Interested in collaborating on a project or have questions? Feel free to [contact me](your-contact-information-link).
