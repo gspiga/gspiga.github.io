@@ -41,10 +41,12 @@ In this project, we conducted a comprehensive sentiment analysis of U.S. domesti
 **Abstract:**  
 The 2020 National Crime Victimization Survey (NCVS) provides information about crime around the country. Following data cleaning and re-encoding, logistic regression models the determinants of a crime being reported to the police or not. Attempts to expand the model with interactions and a generalized partially linear additive model lead back to modeling with a few predictors as main effects. 
 
-**Technologies Used:**
+**Features and Technologies Used:**
 - R
 - ggplot2/plotly
 - tidyverse
+- Logistic Regression
+- Classification
 
 <!-- 
 **Key Features:**
