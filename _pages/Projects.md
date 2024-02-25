@@ -59,11 +59,39 @@ The 2020 National Crime Victimization Survey (NCVS) provides information about c
 
 <div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
 
+## Modeling the Count of Rental Bikes in the Greater Washington D.C. Metropolitan Area
+
+<img src="/assets/images/Project_Page/capital_bikeshare.jpg" alt="Project Image" width="650" height="auto"/>
+*Duration: January 2023 – February 2023*
+
+**Abstract:**  
+Modern bike-sharing services provide data on daily users, including the number of bikes that are rented each day, which this analysis attempts to build an accurate model for. The data sourced from the UCI Machine Learning Repository is cleaned, visualized, and used as the foundation of multiple count regression models. Model reduction and variable encoding lead to a final set of predictors to best describe the relationship between weather behavior, time of year, seasons, and the number of rented bicycles for any given day. 
+
+**Features and Technologies Used:**
+- R
+- ggplot2/plotly
+- Poisson Regression
+- Negative Binomial Regression
+- Likelihood Ratio Tests
+- Count Data
+
+<!-- 
+**Key Features:**
+- Feature 1
+- Feature 2
+- Feature 3
+-->
+
+**[View Full Report](/assets/docs/UnreportedCrimesReport.pdf)** | **[View Poster](/assets/docs/Project_Page/Rental Bike Counts Modeling Poster.pdf)**
+
+<div style="border-bottom: 2px solid #ccc; margin: 20px 0;"></div>
+
 <!--
-## Project 3: [Project Title Here]
+
+## Project Title
 
 ![Project 3 Image](link-to-image-if-available.png)  
-*Duration: Start Date – End Date*
+*Duration: January 2023 – February 2023*
 
 **Project Description:**  
 Provide a brief overview of the project. Include the objectives, the problem it solves, and any interesting findings.
