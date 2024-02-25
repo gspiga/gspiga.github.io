@@ -1,6 +1,6 @@
 ---
 permalink: /projects/
-layout: collection
+layout: single
 title: Projects
 author_profile: false
 ---
