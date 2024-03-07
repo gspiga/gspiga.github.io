@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Gianni Spiga"
-  avatar           : "/assets/images/Gianni-Spiga-Headshot-Gray.jpg" #/assets/images/bio-photo.jpg""/_images/Avatar2023crop.png"
+  avatar           : "/assets/images/Gianni-Spiga-Headshot.jpg" #/assets/images/bio-photo.jpg""/_images/Avatar2023crop.png"
   bio              : "Masters in Statistics, talking about math, data, ML, and personal finance"
   location         : "San Francisco Bay Area, CA"
   email            : 
