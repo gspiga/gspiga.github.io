@@ -30,7 +30,7 @@ These multipliers are strong for a mid-tier travel card. The baseline value for 
 
 While this may seem small now, Wells Fargo has stated there will be more airlines added throughout the year. Note that there is at least one airline from each of the big three airline alliances: SkyTeam, Star Alliance and Oneworld. 
 
-### Should I get this Card?
+### Should You Get The Autograph Journey?
 
 A sign-up bonus of 60,000 points after $4,000 spent in the first 3 months is identical to that of the Sapphire. In the short run, if you can comfortably meet the spend, the card is worth getting. However, 60,000 points are not the most impressive amount, and often travel cards offer promotions where the sign-up bonus is increased. I would be curious to see if Wells Fargo offers any promotion near full-launch to entice more people to get the card. 
 
