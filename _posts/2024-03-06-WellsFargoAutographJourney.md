@@ -40,6 +40,6 @@ The initial list of transfer partners is pretty standard, as these airlines can 
 
 Other perks include an easy-to-use $50 statement credit, which I think is much more flexible than Sapphire's $50 hotel-portal statement credit. As long as you use this credit in full every year, you are effectively only paying $45 for the card. You also have protection against trip cancellation, which can ensure that all the money you spend on your travel does not go to waste if something goes wrong. 
 
-The **Verdict**: The Autograph Journey is a very exciting addition to the market of travel credit cards. The card has the easiest point earning amongst its direct competitors, making it a great card for someone who wants a no-frills way of earning. I believe as more transfer partner airlines are added to the Wells Fargo portfolio, this card will be worth it for just about anyone. 
+The **Verdict**: The Autograph Journey is a very exciting addition to the market of travel credit cards. The card has the easiest point multipliers amongst its direct competitors, making it a great card for someone who wants a no-frills way of earning. I believe as more transfer partner airlines are added to the Wells Fargo portfolio, this card will be worth it for just about anyone. 
 
 For more information on the card, you can read the official [Terms and Conditions](https://www.wellsfargo.com/credit-cards/autograph-visa/terms/).
