@@ -8,7 +8,7 @@ header:
   caption: "Photo credit: **Wells Fargo**"
   actions:
     - label: "Official Announcement"
-      url: "[Wells Fargo](https://newsroom.wf.com/English/news-releases/news-release-details/2024/Wells-Fargo-to-Launch-Autograph-Journey-Card-Designed-for-Frequent-Travelers/default.aspx)"
+      url: "https://newsroom.wf.com/English/news-releases/news-release-details/2024/Wells-Fargo-to-Launch-Autograph-Journey-Card-Designed-for-Frequent-Travelers/default.aspx"
 ---
 
 
