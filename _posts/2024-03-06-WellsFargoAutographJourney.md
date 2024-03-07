@@ -11,8 +11,6 @@ header:
       url: "[Wells Fargo](https://newsroom.wf.com/English/news-releases/news-release-details/2024/Wells-Fargo-to-Launch-Autograph-Journey-Card-Designed-for-Frequent-Travelers/default.aspx)"
 ---
 
-Wells Fargo announced on Wednesday their Autograph Journey card, a new addition to the Autograph collection. While the original Autograph card is quite strong in earning categories, it misses one major advantage, transfer partners. This is where the Journey comes in, introducing new airlines to transfer points to, new earning categories, and an annual credit. 
-
 
 Over the past year, I have taken a strong interest in what some call the "Credit Card Game", learning how to use credit cards to your advantage to earn points for (almost) free travel, as well as other perks. If you would like a more formal introduction or a how-to guide on how to get started on this, feel free to let me know. If I get enough interest, I will write more articles on how you can unlock this new way of traveling. For now, let's talk about this new Wells Fargo card. 
 
@@ -40,7 +38,8 @@ One of my favorite aspects of this card is the flexibility of earning for travel
 
 The initial list of transfer partners is pretty standard, as these airlines can take points from a lot of different credit cards. While workarounds exist using the present airlines, not having any U.S. domestic airlines or Asian airlines to book through is a present disadvantage. If you are looking for European travel, this has a lot of potential. 
 
-Other perks include an easy-to-use $50 statement credit, which I think is much more flexible than the Sapphire's $50 hotel-portal statement credit. You also have protection against trip cancellation, which can ensure that all the money you spend on your travel does not go to waste if something goes wrong. 
+Other perks include an easy-to-use $50 statement credit, which I think is much more flexible than Sapphire's $50 hotel-portal statement credit. As long as you use this credit in full every year, you are effectively only paying $45 for the card. You also have protection against trip cancellation, which can ensure that all the money you spend on your travel does not go to waste if something goes wrong. 
 
 The **Verdict**: The Autograph Journey is a very exciting addition to the market of travel credit cards. The card has the easiest point earning amongst its direct competitors, making it a great card for someone who wants a no-frills way of earning. I believe as more transfer partner airlines are added to the Wells Fargo portfolio, this card will be worth it for just about anyone. 
 
+For more information on the card, you can read the official [Terms and Conditions](https://www.wellsfargo.com/credit-cards/autograph-visa/terms/).
