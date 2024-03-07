@@ -1,5 +1,5 @@
 ---
-title: "Wells Fargo Announces the Autograph Journey Card, Here's my Take"
+title: "Wells Fargo Announces the Autograph Journey Card, Is it the Card for You?"
 show_date: true 
 excerpt: "This post should [...]"
 header:
@@ -11,4 +11,7 @@ header:
       url: "https://unsplash.com"
 ---
 
-Wells Fargo has announced their new Autograph Journey card. Over the past year, I have taken a strong interest in the Credit Card Market, especially when it comes to traveling. 
+Wells Fargo has announced their Autograph Journey card, a new addition to the Autograph collection. While the original Autograph card was quite strong in its earning categories, it misses one major advantage, transfer partners. This is where the Journey comes in, introducing new airlines to transfer points to, new earning categories, and an annual credit. 
+
+
+Over the past year, I have taken a strong interest in the Credit Card Market, especially when it comes to traveling. 
