@@ -11,4 +11,4 @@ header:
       url: "https://unsplash.com"
 ---
 
-Wells Fargo's new introduction Over the past year, I have taken a strong interest in the Credit Card Market, especially when it comes to traveling. 
+Wells Fargo has announced their new Autograph Journey card. Over the past year, I have taken a strong interest in the Credit Card Market, especially when it comes to traveling. 
