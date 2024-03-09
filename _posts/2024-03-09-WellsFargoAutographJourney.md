@@ -12,9 +12,9 @@ header:
 ---
 
 
-Over the past year, I have taken a strong interest in what some call the "Credit Card Game", learning how to use credit cards to your advantage to earn points for (almost) free travel, as well as other perks. If you would like a more formal introduction or a how-to guide on how to get started on this, feel free to let me know. If I get enough interest, I will write more articles on how you can unlock this new way of traveling. For now, let's talk about this new Wells Fargo card. 
+Over the past year, I have taken a strong interest in what some call the "Credit Card Game", learning how to use credit cards to your advantage to earn points for (almost) free travel and other perks. If you would like a more formal introduction or a how-to guide on how to access these benefits, feel free to let me know. If I get enough interest, I will write more articles on how you can unlock this new way of traveling. For now, let's talk about this new Wells Fargo card. 
 
-The Journey is an obvious competitor with the Chase Sapphire Preferred: an identical standard sign-up bonus of 60,000 points, a $95 annual fee, and a $50 annual credit towards traveling. However, there is an exciting difference here, the reward multipliers for your spend. These multipliers allow you to get maximized earning potential from your spending. You get:
+The Journey is an obvious competitor with the Chase Sapphire Preferred: an identical standard sign-up bonus of 60,000 points, a $95 annual fee, and a $50 annual credit towards traveling. However, there is an exciting difference here, the flexibility in your reward multipliers for travel spend. These multipliers allow you to get maximized earning potential from your spending. You get:
 - 5x on Hotels
 - 4x on Airlines
 - 3x on all other travel and dining
@@ -28,18 +28,20 @@ These multipliers are strong for a mid-tier travel card. The baseline value for 
 - AerClub
 - Iberia Plus
 
-While this may seem small now, Wells Fargo has stated there will be more airlines added throughout the year. Note that there is at least one airline from each of the big three airline alliances: SkyTeam, Star Alliance and Oneworld. 
+While this may seem small now, Wells Fargo has stated there will be more airlines added throughout the year. Note that there is at least one airline from each of the big three airline alliances: SkyTeam, Star Alliance, and Oneworld. 
 
 ### Should You Get The Autograph Journey?
 
-A sign-up bonus of 60,000 points after $4,000 spent in the first 3 months is identical to that of the Sapphire. In the short run, if you can comfortably meet the spend, the card is worth getting. However, 60,000 points are not the most impressive amount, and often travel cards offer promotions where the sign-up bonus is increased. I would be curious to see if Wells Fargo offers any promotion near full-launch to entice more people to get the card. 
+A sign-up bonus of 60,000 points after $4,000 spent in the first 3 months is identical to that of the Sapphire. In the short run, if you can comfortably meet the spend, the card is worth getting. However, a 60,000 points sign-up bonus is common, and often travel cards offer limited-time promotions where the sign-up bonus is increased. I would be curious to see if Wells Fargo offers any promotions after the full launch to entice more people to get the card. 
 
 One of my favorite aspects of this card is the flexibility of earning for travel purchases. Typically, travel cards will give you 5x points back on travel purchases (hotel and airfare specifically) when you purchase through their *specific* travel portal. The Autograph Journey however can openly earn points when booking direct, no portal needed. Not even the American Express Platinum, which gives you points when booking directly with airlines, gives you points on direct hotel bookings. If you are someone who enjoys booking direct and/or has status with a hotel or airline contingent on you booking direct, this is a great card. The 3x back on other travel is a strong multiplier but is only advantageous to those who go to campgrounds or cruises.
 
-The initial list of transfer partners is pretty standard, as these airlines can take points from a lot of different credit cards. While workarounds exist using the present airlines, not having any U.S. domestic airlines or Asian airlines to book through is a present disadvantage. If you are looking for European travel, this has a lot of potential. 
+The initial list of transfer partners is standard, as these airlines can take points from a lot of different credit cards. While workarounds exist using the present airlines, not having any U.S. domestic airlines or Asian airlines to book through is a present disadvantage. If you are looking for European travel, this has a lot of potential. 
 
 Other perks include an easy-to-use $50 statement credit, which I think is much more flexible than Sapphire's $50 hotel-portal statement credit. As long as you use this credit in full every year, you are effectively only paying $45 for the card. You also have protection against trip cancellation, which can ensure that all the money you spend on your travel does not go to waste if something goes wrong. 
 
 The **Verdict**: The Autograph Journey is a very exciting addition to the market of travel credit cards. The card has the easiest point multipliers amongst its direct competitors, making it a great card for someone who wants a no-frills way of earning. I believe as more transfer partner airlines are added to the Wells Fargo portfolio, this card will be worth it for just about anyone. 
+
+You can begin applying for this card today, March 9, in a Wells Fargo branch, and nationwide online and in‑branch starting March 20. 
 
 For more information on the card, you can read the official [Terms and Conditions](https://www.wellsfargo.com/credit-cards/autograph-visa/terms/).
