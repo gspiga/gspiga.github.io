@@ -34,4 +34,22 @@ If you are familiar with the formula for linear regression model, you will find 
 
 $$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_{ip}$$ where $$\lambda_i$$ is the expected count for the $i$-th observation and $$\beta_0, \beta_1, \ldots, \beta_p$$ are our regression coefficients. 
 
-### Practical Implementation
+## Implementation in Python
+
+Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in. Here is a preview of our data set: 
+
+$$
+\begin{tabular}{rrlr}
+\toprule
+id & num_awards & prog & math \\
+\midrule
+45 & 0 & Vocational & 41 \\
+108 & 0 & General & 41 \\
+15 & 0 & Vocational & 44 \\
+67 & 0 & Vocational & 42 \\
+153 & 0 & Vocational & 40 \\
+\bottomrule
+\end{tabular}
+$$
+
+
