@@ -26,12 +26,12 @@ Poisson regression is designed explicitly for count data and assumes that the co
 In Poisson regression, we have the following assumptions:
 
 1. Each observation is independent of the others (i.e. the number of ice cream cones sold today will not influence the number sold tomorrow).
-2. The mean and the variance of your model are identical. Formally, $E(Y_i) = Var(Y_i)$. I will introduce this concept more in depth as well as what to do when this is violated in Part 2. 
+2. The mean and the variance of your model are identical. Formally, $$E(Y_i) = Var(Y_i)$$. I will introduce this concept more in depth as well as what to do when this is violated in Part 2. 
 
 ### Nerdy Math Notation
 
 If you are familiar with the formula for linear regression model, you will find the Poisson is quite familiar: 
 
-$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_{ip}$ where $\lambda_i$ is the expected count for the $i$-th observation and $\beta_0, \beta_1, \ldots, \beta_p$ are our regression coefficients. 
+$$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_{ip}$$ where $$\lambda_i$$ is the expected count for the $i$-th observation and $$\beta_0, \beta_1, \ldots, \beta_p$$ are our regression coefficients. 
 
 ### Practical Implementation
