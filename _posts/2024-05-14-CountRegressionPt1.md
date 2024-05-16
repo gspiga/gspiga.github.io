@@ -52,4 +52,14 @@ id & num_awards & prog & math \\
 \end{tabular*}
 $$
 
+|id | num_awards | prog | math \\
+|---|---|---|---|
+45 | 0 | Vocational | 41 |
+108 | 0 | General | 41 |
+15 | 0 | Vocational | 44 |
+67 | 0 | Vocational | 42 |
+153 | 0 | Vocational | 40 |
+
+
+
 
