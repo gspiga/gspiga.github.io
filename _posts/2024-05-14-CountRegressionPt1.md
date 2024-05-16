@@ -39,7 +39,7 @@ $$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_
 Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in. Here is a preview of our data set: 
 
 $$
-\begin{table}{rrlr}
+\begin{tabular*}{rrlr}
 \toprule
 id & num_awards & prog & math \\
 \midrule
@@ -49,7 +49,7 @@ id & num_awards & prog & math \\
 67 & 0 & Vocational & 42 \\
 153 & 0 & Vocational & 40 \\
 \bottomrule
-\end{table}
+\end{tabular*}
 $$
 
 
