@@ -3,6 +3,7 @@ title: "Wells Fargo Announces the Autograph Journey Card - Is it the Card for Yo
 show_date: true 
 excerpt: "Wells Fargo has announced their Autograph Journey card, a new addition to the Autograph collection. With the introduction of transfer partners, elevated earning categories, and an annual airline credit, should this new addition to the Autograph suite take a slot in your wallet?"
 header:
+  teaser: /assets/images/Wells_Fargo_Authograph_Journey.jpeg
   overlay_image: /assets/images/Wells_Fargo_Authograph_Journey.jpeg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: **Wells Fargo**"
