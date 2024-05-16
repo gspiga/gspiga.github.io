@@ -50,9 +50,9 @@ Let's show a simple example of how to apply Poisson regression in Python. We wil
 153 | 0 | Vocational | 40 |
 
 We can visualize our counts using a histogram to get a better idea of the distribution of our counts:
-![](https://github.com/gspiga/gspiga.github.io/code_books/Poisson_Regression/Part_1/histogram_of_num_awards.png?raw=true)
+![Counts Separated by Program Type](https://github.com/gspiga/gspiga.github.io/code_books/Poisson_Regression/Part_1/histogram_of_num_awards.png?raw=true)
 
-Our response variable does not have any hint of normality. With the right skewing, Poisson regression seems to be the most fitting choice. 
+Our response variable does not have any hint of normality. Seeing there is a right skew, Poisson regression seems to be the most fitting choice. 
 
 We can use the following Python code:
 
