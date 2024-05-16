@@ -109,4 +109,5 @@ We now have the following model:
 One thing to keep in mind when interpreting coefficients. Recall that we are building a model for the *log* of the expected count. So for example: for every additional point a student receives on the math final, the difference in the logs of expected counts is expected to change by 0.0702. 
 
 References: 
-- [POISSON REGRESSION | STATA ANNOTATED OUTPUT](https://stats.oarc.ucla.edu/stata/output/poisson-regression/)
+- [POISSON REGRESSION | R DATA ANALYSIS EXAMPLES (UCLA)](https://stats.oarc.ucla.edu/r/dae/poisson-regression/)
+- [POISSON REGRESSION | STATA ANNOTATED OUTPUT (UCLA)](https://stats.oarc.ucla.edu/stata/output/poisson-regression/)
