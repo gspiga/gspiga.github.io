@@ -39,7 +39,7 @@ $$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_
 
 ### Implementation in Python
 
-Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in: Vocational, General, and Academic. Here is a preview of our data set: 
+Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in: Vocational, General, and Academic. Here is a preview of our data set, which we will call `awards`: 
 
 |id | num_awards | prog | math |
 |---|---|---|---|
@@ -49,7 +49,12 @@ Let's show a simple example of how to apply Poisson regression in Python. We wil
 67 | 0 | Vocational | 42 |
 153 | 0 | Vocational | 40 |
 
-We call our data set `awards` and can use the following Python code:
+We can visualize our counts using a histogram to get a better idea of the distribution of our counts:
+![](https://github.com/gspiga/gspiga.github.io/code_books/Poisson_Regression/Part_1/histogram_of_num_awards.png?raw=true)
+
+Our response variable does not have any hint of normality. With the right skewing, Poisson regression seems to be the most fitting choice. 
+
+We can use the following Python code:
 
 ```
 import statsmodels.formula.api as smf
