@@ -57,6 +57,7 @@ import statsmodels.formula.api as smf
 # Poisson regression model
 poisson_model = smf.poisson('num_awards ~ C(prog) + math', data=awards).fit()
 ```
+We now have the following model:
 
 <table class="simpletable">
 <caption>Poisson Regression Results</caption>
@@ -64,35 +65,38 @@ poisson_model = smf.poisson('num_awards ~ C(prog) + math', data=awards).fit()
   <th>Dep. Variable:</th>      <td>num_awards</td>    <th>  No. Observations:  </th>  <td>   200</td>  
 </tr>
 <tr>
-  <th>Model:</th>                <td>Poisson</td>     <th>  Df Residuals:      </th>  <td>   197</td>  
+  <th>Model:</th>                <td>Poisson</td>     <th>  Df Residuals:      </th>  <td>   196</td>  
 </tr>
 <tr>
-  <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>  <td>     2</td>  
+  <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>  <td>     3</td>  
 </tr>
 <tr>
-  <th>Date:</th>            <td>Thu, 16 May 2024</td> <th>  Pseudo R-squ.:     </th>  <td>0.1816</td>  
+  <th>Date:</th>            <td>Thu, 16 May 2024</td> <th>  Pseudo R-squ.:     </th>  <td>0.2118</td>  
 </tr>
 <tr>
-  <th>Time:</th>                <td>09:19:35</td>     <th>  Log-Likelihood:    </th> <td> -189.75</td> 
+  <th>Time:</th>                <td>10:38:47</td>     <th>  Log-Likelihood:    </th> <td> -182.75</td> 
 </tr>
 <tr>
   <th>converged:</th>             <td>True</td>       <th>  LL-Null:           </th> <td> -231.86</td> 
 </tr>
 <tr>
-  <th>Covariance Type:</th>     <td>nonrobust</td>    <th>  LLR p-value:       </th> <td>5.148e-19</td>
+  <th>Covariance Type:</th>     <td>nonrobust</td>    <th>  LLR p-value:       </th> <td>3.747e-21</td>
 </tr>
 </table>
 <table class="simpletable">
 <tr>
-      <td></td>         <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+            <td></td>               <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
 </tr>
 <tr>
- <th>Intercept</th> <td>   -5.5781</td> <td>    0.677</td> <td>   -8.242</td> <td> 0.000</td> <td>   -6.905</td> <td>   -4.252</td>
+  <th>Intercept</th>             <td>   -5.2471</td> <td>    0.658</td> <td>   -7.969</td> <td> 0.000</td> <td>   -6.538</td> <td>   -3.957</td>
 </tr>
 <tr>
-  <th>prog</th>      <td>    0.1233</td> <td>    0.163</td> <td>    0.755</td> <td> 0.450</td> <td>   -0.197</td> <td>    0.443</td>
+  <th>C(prog)[T.Academic]</th>   <td>    1.0839</td> <td>    0.358</td> <td>    3.025</td> <td> 0.002</td> <td>    0.382</td> <td>    1.786</td>
 </tr>
 <tr>
-  <th>math</th>      <td>    0.0861</td> <td>    0.010</td> <td>    8.984</td> <td> 0.000</td> <td>    0.067</td> <td>    0.105</td>
+  <th>C(prog)[T.Vocational]</th> <td>    0.3698</td> <td>    0.441</td> <td>    0.838</td> <td> 0.402</td> <td>   -0.495</td> <td>    1.234</td>
+</tr>
+<tr>
+  <th>math</th>                  <td>    0.0702</td> <td>    0.011</td> <td>    6.619</td> <td> 0.000</td> <td>    0.049</td> <td>    0.091</td>
 </tr>
 </table>
