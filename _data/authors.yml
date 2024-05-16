@@ -1,0 +1,33 @@
+Gianni Spiga:
+  name: "Gianni Spiga"
+  avatar           : "/assets/images/Gianni-Spiga-Headshot-Gray.jpg" #/assets/images/bio-photo.jpg""/_images/Avatar2023crop.png"
+  bio              : "Masters in Statistics, talking about math, data, ML, and personal finance"
+  location         : "San Francisco Bay Area, CA"
+  email            : 
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:giannilspiga@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/giannispiga/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      # url: "https://twitter.com/"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      # url: "https://facebook.com/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/gspiga"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      # url: "https://instagram.com/"
+      
+Cornelius Fiddlebone:
+  name        : "Cornelius Fiddlebone"
+  bio         : "I ordered what?"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:cornelius@thewhip.com"   
