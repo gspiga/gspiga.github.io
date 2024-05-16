@@ -1,12 +1,12 @@
 ---
 title: "Counting on the Right Regression (Pt. 1): Poisson vs. Linear for Count Data"
 show_date: true 
-excerpt: "From the number of customer visits to a store to the number of accidents occurring at a specific intersection, count data is everywehre. When modeling, the gut reaction is often to apply linear regression, but this comes with many hazards. In part one of this three-part series, I'll explain why Poisson regression is often more suitable for modeling/predicting counts over linear regression."
+excerpt: "From the number of customer visits to a store to the number of accidents occurring at a specific intersection, count data is everywhere. When modeling, the gut reaction is often to apply linear regression, but this comes with many hazards. In part one of this three-part series, I'll explain why Poisson regression is often more suitable for modeling/predicting counts over linear regression."
 toc: true
 toc_label: "Navigation"
 toc_sticky: true
-teaser: /assets/images/fish_school.jpg
 header:
+  teaser: /assets/images/fish_school.jpg
   overlay_image: /assets/images/fish_school.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
 ---
