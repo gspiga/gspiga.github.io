@@ -55,36 +55,8 @@ We call our data set `awards` and can use the following Python code:
 import statsmodels.formula.api as smf
 
 # Poisson regression model
-poisson_model = smf.poisson('num_awards ~ prog + math', data=scores).fit()
-
-# Summary of the model
-print(poisson_model.summary())
+poisson_model = smf.poisson('num_awards ~ C(prog) + math', data=awards).fit()
 ```
-
-$$
-\begin{center}
-\begin{tabular}{lclc}
-\toprule
-\textbf{Dep. Variable:}   &   num\_awards    & \textbf{  No. Observations:  } &      200    \\
-\textbf{Model:}           &     Poisson      & \textbf{  Df Residuals:      } &      197    \\
-\textbf{Method:}          &       MLE        & \textbf{  Df Model:          } &        2    \\
-\textbf{Date:}            & Thu, 16 May 2024 & \textbf{  Pseudo R-squ.:     } &   0.1816    \\
-\textbf{Time:}            &     09:16:13     & \textbf{  Log-Likelihood:    } &   -189.75   \\
-\textbf{converged:}       &       True       & \textbf{  LL-Null:           } &   -231.86   \\
-\textbf{Covariance Type:} &    nonrobust     & \textbf{  LLR p-value:       } & 5.148e-19   \\
-\bottomrule
-\end{tabular}
-\begin{tabular}{lcccccc}
-                   & \textbf{coef} & \textbf{std err} & \textbf{z} & \textbf{P$> |$z$|$} & \textbf{[0.025} & \textbf{0.975]}  \\
-\midrule
-\textbf{Intercept} &      -5.5781  &        0.677     &    -8.242  &         0.000        &       -6.905    &       -4.252     \\
-\textbf{prog}      &       0.1233  &        0.163     &     0.755  &         0.450        &       -0.197    &        0.443     \\
-\textbf{math}      &       0.0861  &        0.010     &     8.984  &         0.000        &        0.067    &        0.105     \\
-\bottomrule
-\end{tabular}
-%\caption{Poisson Regression Results}
-\end{center}
-$$
 
 <table class="simpletable">
 <caption>Poisson Regression Results</caption>
