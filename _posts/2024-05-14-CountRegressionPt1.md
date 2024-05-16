@@ -3,7 +3,7 @@ title: "Counting on the Right Regression (Pt. 1): Poisson vs. Linear for Count D
 show_date: true 
 toc: true
 toc_label: "Navigation"
-toc_float: true
+toc_sticky: true
 ---
 
 Count data, which represents the number of times an event occurs, is common in many fields, from the number of customer visits to a store to the number of accidents occurring at a specific location. Often, the gut reaction is to apply linear regression given the numerical outcomes, but it usually falls short with count data. In part one of this three-part series, I'll explore why Poisson regression is often more suitable for modeling counts and demonstrate its advantages over linear regression.
