@@ -8,7 +8,7 @@ toc_sticky: true
 
 Count data, which represents the number of times an event occurs, is common in many fields, from the number of customer visits to a store to the number of accidents occurring at a specific location. Often, the gut reaction is to apply linear regression given the numerical outcomes, but it usually falls short with count data. In part one of this three-part series, I'll explore why Poisson regression is often more suitable for modeling counts and demonstrate its advantages over linear regression.
 
-### Why Linear Regression is not Ideal
+## Why Linear Regression is not Ideal
 
 Count data measures the frequency of an event. Because of this, count data is always going to be discrete as well as non-negative. Linear regression however often assumes the data is continuous and can include negative values. 
 
@@ -37,7 +37,7 @@ If you are familiar with the formula for linear regression model, you will find 
 
 $$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_{ip}$$ where $$\lambda_i$$ is the expected count for the $i$-th observation and $$\beta_0, \beta_1, \ldots, \beta_p$$ are our regression coefficients. 
 
-## Implementation in Python
+### Implementation in Python
 
 Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in. Here is a preview of our data set: 
 
