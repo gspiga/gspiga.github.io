@@ -5,6 +5,7 @@ excerpt: "From the number of customer visits to a store to the number of acciden
 toc: true
 toc_label: "Navigation"
 toc_sticky: true
+teaser: /assets/images/fish_school.jpg
 header:
   overlay_image: /assets/images/fish_school.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
