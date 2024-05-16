@@ -39,7 +39,7 @@ In Poisson regression, we have the following assumptions:
 
 If you are familiar with the formula for linear regression model, you will find the Poisson is quite familiar: 
 
-$$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_{ip}$$ where $$\lambda_i$$ is the expected count for the $i$-th observation and $$\beta_0, \beta_1, \ldots, \beta_p$$ are our regression coefficients. 
+$$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_{ip}$$ where $$\lambda_i$$ is the expected count for the $$i$$-th observation and $$\beta_0, \beta_1, \ldots, \beta_p$$ are our regression coefficients. 
 
 ### Implementation in Python
 
