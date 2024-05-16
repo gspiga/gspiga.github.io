@@ -14,7 +14,7 @@ Count data measures the frequency of an event. Because of this, count data is al
 
 Linear regression assumes that the relationship between the independent and dependent variables is linear and that the dependent variable is normally distributed with constant variance (homoscedasticity). These assumptions often do not hold true for count data, leading to several issues:
 
-1 Non-negative Predictions: Linear regression can produce negative predictions, which are not meaningful for count data.
+1. Non-negative Predictions: Linear regression can produce negative predictions, which are not meaningful for count data.
 
 2. Heteroscedasticity: Count data often exhibits heteroscedasticity, where the variance increases with the mean. Recall we need *homoscedasticity* (equal variance) to be met for linear regression to be valid.
  
@@ -39,7 +39,7 @@ $$log(\lambda_i) = \beta_0 + \beta x_{i1} + \beta_2 x_{i2} + \ldots + \beta_p x_
 
 ### Implementation in Python
 
-Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in. Here is a preview of our data set: 
+Let's show a simple example of how to apply Poisson regression in Python. We will use a simple data set, modeling the number of awards given to high school students. Our two predictors are the score on their math final and a categorical variable of three levels for which program they are in: Vocational, General, and Academic. Here is a preview of our data set: 
 
 |id | num_awards | prog | math |
 |---|---|---|---|
@@ -49,6 +49,13 @@ Let's show a simple example of how to apply Poisson regression in Python. We wil
 67 | 0 | Vocational | 42 |
 153 | 0 | Vocational | 40 |
 
+We call our data set `awards` and can use the following Python code:
 
+```
+# Poisson regression model
+poisson_model = smf.poisson('num_awards ~ prog + math', data=scores).fit()
 
+# Summary of the model
+print(poisson_model.summary())
+```
 
