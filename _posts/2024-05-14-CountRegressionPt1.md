@@ -85,3 +85,42 @@ $$
 %\caption{Poisson Regression Results}
 \end{center}
 $$
+
+<table class="simpletable">
+<caption>Poisson Regression Results</caption>
+<tr>
+  <th>Dep. Variable:</th>      <td>num_awards</td>    <th>  No. Observations:  </th>  <td>   200</td>  
+</tr>
+<tr>
+  <th>Model:</th>                <td>Poisson</td>     <th>  Df Residuals:      </th>  <td>   197</td>  
+</tr>
+<tr>
+  <th>Method:</th>                 <td>MLE</td>       <th>  Df Model:          </th>  <td>     2</td>  
+</tr>
+<tr>
+  <th>Date:</th>            <td>Thu, 16 May 2024</td> <th>  Pseudo R-squ.:     </th>  <td>0.1816</td>  
+</tr>
+<tr>
+  <th>Time:</th>                <td>09:19:35</td>     <th>  Log-Likelihood:    </th> <td> -189.75</td> 
+</tr>
+<tr>
+  <th>converged:</th>             <td>True</td>       <th>  LL-Null:           </th> <td> -231.86</td> 
+</tr>
+<tr>
+  <th>Covariance Type:</th>     <td>nonrobust</td>    <th>  LLR p-value:       </th> <td>5.148e-19</td>
+</tr>
+</table>
+<table class="simpletable">
+<tr>
+      <td></td>         <th>coef</th>     <th>std err</th>      <th>z</th>      <th>P>|z|</th>  <th>[0.025</th>    <th>0.975]</th>  
+</tr>
+<tr>
+ <th>Intercept</th> <td>   -5.5781</td> <td>    0.677</td> <td>   -8.242</td> <td> 0.000</td> <td>   -6.905</td> <td>   -4.252</td>
+</tr>
+<tr>
+  <th>prog</th>      <td>    0.1233</td> <td>    0.163</td> <td>    0.755</td> <td> 0.450</td> <td>   -0.197</td> <td>    0.443</td>
+</tr>
+<tr>
+  <th>math</th>      <td>    0.0861</td> <td>    0.010</td> <td>    8.984</td> <td> 0.000</td> <td>    0.067</td> <td>    0.105</td>
+</tr>
+</table>
