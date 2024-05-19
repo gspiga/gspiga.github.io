@@ -35,17 +35,49 @@
         sessionStorage.setItem('theme', theme);
       }
       
+      applyTheme(theme);
+      updateIcon(theme);
+    });
+
+    function applyTheme(theme) {
       const node1 = document.getElementById('theme_source');
       const node2 = document.getElementById('theme_source_2');
+      console.log('Applying theme:', theme);
       
-      if(theme === "dark") {
+      if (theme === 'dark') {
         node1.setAttribute('rel', 'stylesheet alternate');
         node2.setAttribute('rel', 'stylesheet');
       } else {
         node2.setAttribute('rel', 'stylesheet alternate');
         node1.setAttribute('rel', 'stylesheet');
       }
-    });
+    }
+
+    function updateIcon(theme) {
+      const icon = document.getElementById('theme-icon');
+      console.log('Updating icon for theme:', theme);
+      
+      if (theme === 'light') {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    }
+
+    function toggleTheme() {
+      const node1 = document.getElementById('theme_source');
+      const node2 = document.getElementById('theme_source_2');
+      const currentTheme = node1.getAttribute('rel') === 'stylesheet' ? 'light' : 'dark';
+      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+      console.log('Toggling theme to:', newTheme);
+      
+      applyTheme(newTheme);
+      updateIcon(newTheme);
+      sessionStorage.setItem('theme', newTheme);
+      return false;
+    }
   </script>
 {% endif %}
 
