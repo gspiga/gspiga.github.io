@@ -18,7 +18,7 @@
             </li>
           {%- endfor -%}
         </ul>
-        <!-- Adding Button to change theme light/dark -->
+        <!-- Adding Button to change theme light/dark, thank you @VladimirSiv https://github.com/mmistakes/minimal-mistakes/discussions/2033#discussioncomment-1641577 -->
         {% if site.minimal_mistakes_skin2 %}
           <i class="fas fa-fw" id="theme-icon" aria-hidden="true" onclick="toggleTheme()"></i>
         {% endif %}
@@ -37,3 +37,40 @@
     </div>
   </div>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const theme = sessionStorage.getItem('theme') || 'light';
+    updateIcon(theme);
+  });
+
+  function toggleTheme() {
+    const node1 = document.getElementById('theme_source');
+    const node2 = document.getElementById('theme_source_2');
+    const currentTheme = node1.getAttribute('rel') === 'stylesheet' ? 'light' : 'dark';
+    const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+    
+    if (currentTheme === 'light') {
+      node1.setAttribute('rel', 'stylesheet alternate');
+      node2.setAttribute('rel', 'stylesheet');
+    } else {
+      node2.setAttribute('rel', 'stylesheet alternate');
+      node1.setAttribute('rel', 'stylesheet');
+    }
+    
+    sessionStorage.setItem('theme', newTheme);
+    updateIcon(newTheme);
+    return false;
+  }
+
+  function updateIcon(theme) {
+    const icon = document.getElementById('theme-icon');
+    if (theme === 'light') {
+      icon.classList.remove('fa-moon');
+      icon.classList.add('fa-sun');
+    } else {
+      icon.classList.remove('fa-sun');
+      icon.classList.add('fa-moon');
+    }
+  }
+</script>
