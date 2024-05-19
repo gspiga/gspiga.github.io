@@ -13,73 +13,40 @@
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
+<!-- Light mode -->
+<!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
+
 <!-- Support for user preferred color scheme -->
-{% if site.minimal_mistakes_skin2 %}
+<!-- {% if site.minimal_mistakes_skin2 %}
   <meta name="color-scheme" content="light dark">
-  <!-- Light mode -->
-  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" id="theme_source">
-  <!-- Dark mode -->
-  <link rel="stylesheet alternate" href="{{ '/assets/css/theme2.css' | relative_url }}" id="theme_source_2">
   <style>
     @import url("{{ '/assets/css/theme2.css' | relative_url }}") (prefers-color-scheme: dark);
   </style>
+{% endif %} -->
+
+<!-- For all browsers -->
+<!-- <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}"> -->
+<!-- Adding support for second theme-->
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" id="theme_source">
+{% if site.minimal_mistakes_skin2 %}
+  <link rel="stylesheet alternate" href="{{ '/assets/css/theme2.css' | relative_url }}" id="theme_source_2">
   <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      let theme = sessionStorage.getItem('theme');
-      if (!theme) {
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          theme = 'dark';
-        } else {
-          theme = 'light';
-        }
-        sessionStorage.setItem('theme', theme);
-      }
-      
-      applyTheme(theme);
-      updateIcon(theme);
-    });
-
-    function applyTheme(theme) {
-      const node1 = document.getElementById('theme_source');
-      const node2 = document.getElementById('theme_source_2');
-      console.log('Applying theme:', theme);
-      
-      if (theme === 'dark') {
-        node1.setAttribute('rel', 'stylesheet alternate');
-        node2.setAttribute('rel', 'stylesheet');
-      } else {
-        node2.setAttribute('rel', 'stylesheet alternate');
-        node1.setAttribute('rel', 'stylesheet');
-      }
+    let theme = sessionStorage.getItem('theme');
+    if(theme === "dark")
+    {
+      sessionStorage.setItem('theme', 'dark');
+      node1 = document.getElementById('theme_source');
+      node2 = document.getElementById('theme_source_2');
+      node1.setAttribute('rel', 'stylesheet alternate'); 
+      node2.setAttribute('rel', 'stylesheet');
     }
-
-    function updateIcon(theme) {
-      const icon = document.getElementById('theme-icon');
-      console.log('Updating icon for theme:', theme);
-      
-      if (theme === 'light') {
-        icon.classList.remove('fa-moon');
-        icon.classList.add('fa-sun');
-      } else {
-        icon.classList.remove('fa-sun');
-        icon.classList.add('fa-moon');
-      }
-    }
-
-    function toggleTheme() {
-      const node1 = document.getElementById('theme_source');
-      const node2 = document.getElementById('theme_source_2');
-      const currentTheme = node1.getAttribute('rel') === 'stylesheet' ? 'light' : 'dark';
-      const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-      console.log('Toggling theme to:', newTheme);
-      
-      applyTheme(newTheme);
-      updateIcon(newTheme);
-      sessionStorage.setItem('theme', newTheme);
-      return false;
+    else
+    {
+      sessionStorage.setItem('theme', 'light');
     }
   </script>
 {% endif %}
+
 
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
